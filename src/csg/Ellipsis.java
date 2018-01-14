@@ -9,6 +9,11 @@ package csg;
  *
  * @author kiper
  */
-public class Ellipsis {
+public class Ellipsis implements Shape{
+
+    @Override
+    public boolean contains(float x, float y) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
